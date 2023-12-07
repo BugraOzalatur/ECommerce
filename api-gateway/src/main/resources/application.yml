@@ -1,0 +1,21 @@
+
+server:
+  port:9000
+spring:
+  application:
+      name: api-gateway
+  main:
+    web-application-type: reactive
+cloud:
+  gateway:
+    discovery:
+      locator:
+        enabled: true
+        lower-case-service-id: true
+
+eureka:
+     client:
+       initial-instance-info-replication-interval-seconds: 5
+       registry-fetch-interval-seconds: 5
+       service-url:
+         defaultZone: http://localhost:9091/eureka/
