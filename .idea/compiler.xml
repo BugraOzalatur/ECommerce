@@ -2,18 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="commonService" />
+        <module name="authService" />
         <module name="eurekaServer" />
+        <module name="BasketService" />
+        <module name="ProductService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BasketService" options="-parameters" />
+      <module name="ProductService" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
+      <module name="authService" options="-parameters" />
+      <module name="commonService" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
     </option>
   </component>
