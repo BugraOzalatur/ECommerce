@@ -9,16 +9,16 @@ import lombok.Data;
 @Entity
 @Data
 public class ProductImage {
-@Id
+    @Id
     @GeneratedValue
     private Long id;
 
-@Lob
+    @Lob
     private byte[] imageData;
 
-public ProductImage(byte[] imageData){
-    this.imageData=imageData;
-}
+    public ProductImage(byte[] imageData) {
+        this.imageData = imageData;
+    }
 
     public ProductImage() {
 

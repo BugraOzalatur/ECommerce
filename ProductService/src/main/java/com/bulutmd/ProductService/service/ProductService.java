@@ -49,12 +49,12 @@ public class ProductService {
     }
 
 
-    public ResponseEntity updateProduct(Long id, ProductDTO productDTO,List<MultipartFile> images) {
+    public ResponseEntity updateProduct(Long id, ProductDTO productDTO, List<MultipartFile> images) {
         Product product = new Product();
         product = productRepository.getReferenceById(id);
-      List<ProductImage> productImage=proccesImages(images);
-      product.setImages(productImage);
-    return ResponseEntity.ok(productRepository.save(product));
+        List<ProductImage> productImage = proccesImages(images);
+        product.setImages(productImage);
+        return ResponseEntity.ok(productRepository.save(product));
     }
 
     public ResponseEntity deleteProduct(Long id) {
@@ -66,17 +66,18 @@ public class ProductService {
         }
         return ResponseEntity.ok("işlem başarısızlık ile gerçekleştirilemedi");
     }
-private List<ProductImage> proccesImages(List<MultipartFile> images){
+
+    private List<ProductImage> proccesImages(List<MultipartFile> images) {
         return images.stream()
-                .map(image->{
-                    try{
+                .map(image -> {
+                    try {
                         return new ProductImage(image.getBytes());
-                    }catch(IOException exception){
-                        throw new RuntimeException("error converting image to byte array",exception);
+                    } catch (IOException exception) {
+                        throw new RuntimeException("error converting image to byte array", exception);
                     }
                         }
 
                 ).collect(Collectors.toList());
-}
+    }
 
 }

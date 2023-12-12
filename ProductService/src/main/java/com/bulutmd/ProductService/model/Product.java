@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Table(name = "product")
 @Entity
 @Data
@@ -19,4 +20,4 @@ public class Product {
     @JoinColumn(name = "product_id")
     private List<ProductImage> images = new ArrayList<>();
 
-    }
+}

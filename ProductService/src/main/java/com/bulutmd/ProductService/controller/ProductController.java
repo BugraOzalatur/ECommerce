@@ -23,21 +23,22 @@ public class ProductController {
     }
 
     @PostMapping(consumes = "multipart/form-data")
-    public ResponseEntity<Product> addProduct(@RequestBody ProductDTO productDTO,@RequestPart("image") List<MultipartFile> image){
-        return productService.addProduct(productDTO,image);
+    public ResponseEntity<Product> addProduct(@RequestBody ProductDTO productDTO, @RequestPart("image") List<MultipartFile> image) {
+        return productService.addProduct(productDTO, image);
     }
 
     @GetMapping("/getlist")
-    public ResponseEntity<Product> listProductById(@RequestBody Long id){
+    public ResponseEntity<Product> listProductById(@RequestBody Long id) {
         return productService.listProductById(id);
     }
 
     @PostMapping("/{id}")
-    public ResponseEntity updateProduct(@RequestParam("id") Long id,@RequestBody ProductDTO productDTO,@RequestPart("image") List<MultipartFile> images){
-        return productService.updateProduct(id,productDTO,images);
+    public ResponseEntity updateProduct(@RequestParam("id") Long id, @RequestBody ProductDTO productDTO, @RequestPart("image") List<MultipartFile> images) {
+        return productService.updateProduct(id, productDTO, images);
     }
-@DeleteMapping
-    public ResponseEntity deleteProduct(@RequestParam("id") Long id){
+
+    @DeleteMapping
+    public ResponseEntity deleteProduct(@RequestParam("id") Long id) {
         return productService.deleteProduct(id);
-}
+    }
 }
