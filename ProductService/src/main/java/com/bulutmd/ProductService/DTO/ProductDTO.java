@@ -2,9 +2,6 @@ package com.bulutmd.ProductService.DTO;
 
 import jakarta.persistence.Entity;
 import lombok.Data;
-import org.springframework.web.multipart.MultipartFile;
-
-import java.util.List;
 
 @Data
 
