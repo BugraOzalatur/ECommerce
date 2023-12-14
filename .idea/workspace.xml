@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc85da53-d9c6-4fb9-933f-c460ce732ac0" name="Changes" comment="productservice added with bug">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bc85da53-d9c6-4fb9-933f-c460ce732ac0" name="Changes" comment="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66/storage_v2/_src_/schema/products.ZNErxA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66/storage_v2/_src_/schema/products.ZNErxA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/DTO/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/DTO/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bulutmd.ApiGateway.ApiGatewayApplication" />
       <extension name="coverage">
@@ -246,6 +242,8 @@
       <workItem from="1702320909419" duration="1316000" />
       <workItem from="1702331084513" duration="3353000" />
       <workItem from="1702338024617" duration="2859000" />
+      <workItem from="1702381218929" duration="2341000" />
+      <workItem from="1702420608896" duration="4094000" />
     </task>
     <task id="LOCAL-00001" summary="eurekaserver added">
       <option name="closed" value="true" />
@@ -279,7 +277,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702173093991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1702381450727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702381450727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1702381513938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702381513938</updated>
+    </task>
+    <task id="LOCAL-00007" summary="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1702381636066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702381636066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,34 +325,22 @@
     <MESSAGE value="eurekaserver added" />
     <MESSAGE value="eurekaserver and api-gateway added" />
     <MESSAGE value="productservice added with bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="productservice added with bug" />
+    <MESSAGE value="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/service/ProductService.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/controller/ProductController.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/controller/ProductController.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ProductService/src/main/java/com/bulutmd/ProductService/service/ProductService.java</url>
-          <line>30</line>
-          <properties class="com.bulutmd.ProductService.service.ProductService" method="addProduct">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
