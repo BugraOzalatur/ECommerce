@@ -5,6 +5,7 @@ import com.bulutmd.authService.DTO.LoginDTO;
 import com.bulutmd.authService.model.Role;
 import com.bulutmd.authService.model.User;
 import com.bulutmd.authService.repository.UserRepository;
+import org.antlr.v4.runtime.Token;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -16,7 +17,6 @@ public class AuthService {
     private UserRepository userRepository;
     @Autowired
     private PasswordEncoder passwordEncoder;
-
     public ResponseEntity register(AuthDTO authDTO) {
         User user = new User();
         if (userRepository.getUserByEmail(authDTO.getEmail()) != null) {
@@ -36,6 +36,8 @@ public class AuthService {
             return ResponseEntity.badRequest().build();
         }
         if (passwordEncoder.matches(loginDTO.getPassword(), user.getPassword())) {
+
+
             return ResponseEntity.ok("jwtToken");
         }
         return ResponseEntity.badRequest().build();

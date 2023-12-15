@@ -1,6 +1,8 @@
 server:
   port: 0
+jwt:
 
+# 30 dakika (saniye cinsinden)
 spring:
   application:
     name: auth-service

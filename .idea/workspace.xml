@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc85da53-d9c6-4fb9-933f-c460ce732ac0" name="Changes" comment="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66/storage_v2/_src_/schema/products.ZNErxA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8a442b5-1f91-4434-b0a0-ebb93f8c2a66/storage_v2/_src_/schema/products.ZNErxA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authService/src/main/java/com/bulutmd/authService/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authService/src/main/java/com/bulutmd/authService/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authService/src/main/java/com/bulutmd/authService/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authService/src/main/java/com/bulutmd/authService/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bulutmd.ApiGateway.ApiGatewayApplication" />
       <extension name="coverage">
@@ -244,6 +245,8 @@
       <workItem from="1702338024617" duration="2859000" />
       <workItem from="1702381218929" duration="2341000" />
       <workItem from="1702420608896" duration="4094000" />
+      <workItem from="1702558440420" duration="2948000" />
+      <workItem from="1702637067305" duration="5434000" />
     </task>
     <task id="LOCAL-00001" summary="eurekaserver added">
       <option name="closed" value="true" />
@@ -301,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702381636066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="productservice added with bug&#10;&#10;Signed-off-by: BugraOzalatur &lt;100222213+BugraOzalatur@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1702558562181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702558562181</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
